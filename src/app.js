@@ -81,7 +81,7 @@ app.get('*',(req,res)=>{
     })
 })
 
-app.listen(port,()=>{
+app.listen(PORT,()=>{
     console.log('Server is up on port '+PORT)
 })
 
